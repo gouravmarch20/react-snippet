@@ -16,7 +16,7 @@ export const Home = () => {
         dispatch(getUsers(pageNumber))
     }, [])
 
-    return (
+ return (
         <>
             <div>
                 {
